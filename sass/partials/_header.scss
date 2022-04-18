@@ -1,0 +1,23 @@
+/*NAVBAR*/ 
+
+.navbar{ 
+    background-color: black;
+    max-height: 20vh;
+    justify-content: space-around;
+
+    &__menu {
+        flex-basis: 50%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2rem;
+
+        &--link{
+            font-size: 1.4em;
+            text-decoration: none;
+            color: $secondary;
+            font-family: $font-primary;
+            
+        }
+       
+    }
+}

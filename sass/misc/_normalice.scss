@@ -1,6 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
+
+ 
+
 * {
     margin:0; 
     padding: 0;
     box-sizing: border-box;
+}
+
+/*GLOBALS*/ 
+
+html {
+    font-size: 62.5%; 
+    font-family: $font-primary;
+}
+
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+h1{
+    font-family: $font-primary;
+    font-size: 3.6em;
+}
+
+h2{
+    font-family: $font-primary;
+    font-size: 2.4em;
+
+}
+
+p{
+    font-family: $font-secondary;
+    
+  
 }
 

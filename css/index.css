@@ -1,4 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Roboto:wght@300&family=Rubik:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+/*GLOBALS*/
+html {
+  font-size: 62.5%;
+  font-family: "Alegreya", sans-serif; }
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto; }
+
+.flex-row {
+  display: flex;
+  flex-direction: row; }
+
+.flex-column {
+  flex-direction: column; }
+
+h1 {
+  font-family: "Alegreya", sans-serif;
+  font-size: 3.6em; }
+
+h2 {
+  font-family: "Alegreya", sans-serif;
+  font-size: 2.4em; }
+
+p {
+  font-family: "Roboto", sans-serif; }
+
+.navbar {
+  background-color: black;
+  max-height: 20vh;
+  justify-content: space-around; }
+  .navbar__menu {
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem; }
+    .navbar__menu--link {
+      font-size: 1.4em;
+      text-decoration: none;
+      color: #fff;
+      font-family: "Alegreya", sans-serif; }
+
+/*FOOTER*/
+footer .foot {
+  background-color: black;
+  max-height: auto;
+  justify-content: space-around;
+  align-items: center; }
+
+.foot__text {
+  font-size: 0.9em !important;
+  color: #fff;
+  width: 40%; }
