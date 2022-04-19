@@ -4,13 +4,27 @@
 footer .foot {
     background-color: black;
     max-height: auto;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    &__text {
+        font-size: 0.9em !important;
+        color: $secondary;
+        width: 40%;
+        margin: 2rem;
+        }
+    &__link{
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        &--icon{
+            height: 20px;
+        }
+    }
 }
 
-.foot__text {
-    font-size: 0.9em !important;
-    color: $secondary;
-    width: 40%;
-    }
+
+
+
+
+
 

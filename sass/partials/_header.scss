@@ -1,7 +1,8 @@
-/*NAVBAR*/ 
-
+/*HEADER*/
+header{
+    border: 5px, solid;
+}
 .navbar{ 
-    background-color: black;
     max-height: 20vh;
     justify-content: space-around;
 
@@ -10,11 +11,13 @@
         align-items: center;
         justify-content: space-between;
         padding: 0 2rem;
+        list-style: none;
+        font-weight: bold;
 
         &--link{
             font-size: 1.4em;
             text-decoration: none;
-            color: $secondary;
+            color: $principal;
             font-family: $font-primary;
             
         }
