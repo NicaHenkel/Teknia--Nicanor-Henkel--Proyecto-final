@@ -9,7 +9,11 @@ html {
   font-size: 62.5%;
   font-family: "Alegreya", sans-serif; }
 
-.container {
+.container-1 {
+  max-width: 1506px;
+  margin: 0 auto; }
+
+.container-2 {
   max-width: 1080px;
   margin: 0 auto; }
 
@@ -34,7 +38,7 @@ p {
 
 /*HEADER*/
 header {
-  border: 5px, solid; }
+  background-color: #BFDE4B; }
 
 .navbar {
   max-height: 20vh;
@@ -54,13 +58,13 @@ header {
 
 /*FOOTER*/
 footer .foot {
-  background-color: black;
+  background-color: #BFDE4B;
   max-height: auto;
   justify-content: space-between;
   align-items: center; }
   footer .foot__text {
-    font-size: 0.9em !important;
-    color: #fff;
+    font-size: 1em !important;
+    color: #0b0c0d;
     width: 40%;
     margin: 2rem; }
   footer .foot__link {
@@ -68,7 +72,7 @@ footer .foot {
     display: flex;
     justify-content: space-around; }
     footer .foot__link--icon {
-      height: 20px; }
+      height: 60px; }
 
 /*MAIN HOME*/
 .main {
@@ -96,3 +100,10 @@ footer .foot {
   .tittle-tek__descrip {
     font-size: 2em;
     justify-content: center; }
+
+.bout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  height: 100%; }

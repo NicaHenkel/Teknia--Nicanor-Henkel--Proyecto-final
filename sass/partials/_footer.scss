@@ -2,13 +2,13 @@
 /*FOOTER*/ 
 
 footer .foot {
-    background-color: black;
+    background-color: $quarter;
     max-height: auto;
     justify-content: space-between;
     align-items: center;
     &__text {
-        font-size: 0.9em !important;
-        color: $secondary;
+        font-size: 1em !important;
+        color: $principal;
         width: 40%;
         margin: 2rem;
         }
@@ -17,7 +17,7 @@ footer .foot {
         display: flex;
         justify-content: space-around;
         &--icon{
-            height: 20px;
+            height: 60px;
         }
     }
 }
