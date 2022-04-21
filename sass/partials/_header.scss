@@ -1,11 +1,14 @@
 /*HEADER*/
 header{
     background-color: $quarter;
+    position: sticky;
+    top: 0;
     
 }
 .navbar{ 
     max-height: 20vh;
     justify-content: space-around;
+   
 
     &__menu {
         flex-basis: 50%;
@@ -20,8 +23,14 @@ header{
             text-decoration: none;
             color: $principal;
             font-family: $font-primary;
-            
+            padding: 15px;
+            border-radius: 5px;
+            &:hover {
+                background-color: rgb(207, 235, 84);
+
+            }
         }
        
     }
+    
 }

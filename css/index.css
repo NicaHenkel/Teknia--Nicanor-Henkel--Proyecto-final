@@ -38,7 +38,9 @@ p {
 
 /*HEADER*/
 header {
-  background-color: #BFDE4B; }
+  background-color: #BFDE4B;
+  position: sticky;
+  top: 0; }
 
 .navbar {
   max-height: 20vh;
@@ -54,27 +56,16 @@ header {
       font-size: 1.4em;
       text-decoration: none;
       color: #0b0c0d;
-      font-family: "Alegreya", sans-serif; }
-
-/*FOOTER*/
-footer .foot {
-  background-color: #BFDE4B;
-  max-height: auto;
-  justify-content: space-between;
-  align-items: center; }
-  footer .foot__text {
-    font-size: 1em !important;
-    color: #0b0c0d;
-    width: 40%;
-    margin: 2rem; }
-  footer .foot__link {
-    width: 30%;
-    display: flex;
-    justify-content: space-around; }
-    footer .foot__link--icon {
-      height: 60px; }
+      font-family: "Alegreya", sans-serif;
+      padding: 15px;
+      border-radius: 5px; }
+      .navbar__menu--link:hover {
+        background-color: #cfeb54; }
 
 /*MAIN HOME*/
+#home {
+  border-bottom: 3px solid #FF7A00; }
+
 .main {
   display: flex;
   flex-direction: column;
@@ -101,9 +92,69 @@ footer .foot {
     font-size: 2em;
     justify-content: center; }
 
-.bout {
-  display: flex;
-  flex-direction: column;
+/*ABOUT-US*/
+#nos {
+  border-bottom: 3px solid #FF7A00; }
+
+main div .cont__about {
+  height: 100vh;
+  max-width: 1080px; }
+  main div .cont__about__title1 {
+    height: 30vh; }
+
+.cont__text {
+  margin-top: 5rem;
+  height: 33rem;
+  width: 100%;
+  align-items: center;
+  justify-items: right; }
+
+.bg-img {
+  max-width: 1506px; }
+
+.about__title2 {
+  font-size: 3em;
+  width: 50%; }
+
+.title-a {
+  border-right: 20px solid #FF7A00;
+  padding: 2rem; }
+
+.title-b {
+  order: 1;
+  border-left: 20px solid #FF7A00;
+  padding: 3rem; }
+
+.title-c {
+  border-right: 20px solid #FF7A00;
+  padding: 3rem; }
+
+.about__text {
+  margin: 20px;
+  align-self: center;
   justify-content: center;
-  align-content: space-between;
-  height: 100%; }
+  text-align: justify; }
+  .about__text--parr {
+    font-size: 1.6em;
+    width: 65%; }
+
+.text-myv {
+  justify-content: flex-end; }
+
+/*FOOTER*/
+footer .foot {
+  background-color: #BFDE4B;
+  max-height: auto;
+  justify-content: space-between;
+  align-items: center; }
+  footer .foot__text {
+    font-size: 1em !important;
+    color: #0b0c0d;
+    width: 40%;
+    margin: 2rem; }
+  footer .foot__link {
+    width: 30%;
+    display: flex;
+    justify-content: space-around; }
+    footer .foot__link--icon {
+      height: 60px; }

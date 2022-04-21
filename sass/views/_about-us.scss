@@ -1,8 +1,66 @@
+/*ABOUT-US*/
+#nos{
+    border-bottom: 3px solid $terciary;
+}
 
-.bout{
-    display: flex;
-    flex-direction: column;
+main div .cont__about{
+    height: 100vh;
+    max-width: 1080px;
+    &__title1{
+        height: 30vh;
+    }
+
+}
+
+
+.cont__text {
+    margin-top: 5rem;
+    height: 33rem;
+    width: 100%; 
+    align-items: center;
+    justify-items: right;
+    
+    
+}
+
+.bg-img{
+    max-width: 1506px;
+}
+
+
+.about__title2{
+    font-size: 3em;
+    width: 50%;
+    // height: 20rem;  
+     
+}
+.title-a {
+    border-right: 20px solid $terciary;
+    padding: 2rem;
+}
+.title-b{
+    order: 1;
+    border-left: 20px solid $terciary;
+    padding: 3rem;
+   
+}
+
+.title-c{
+    border-right: 20px solid $terciary;
+    padding: 3rem;
+}
+
+.about__text{
+    margin: 20px;
+    align-self: center;
     justify-content: center;
-    align-content: space-between;
-    height: 100%;
+    text-align: justify;
+    &--parr{
+        font-size: 1.6em;
+        width: 65%;
+    }
+}
+
+.text-myv{
+    justify-content: flex-end;
 }

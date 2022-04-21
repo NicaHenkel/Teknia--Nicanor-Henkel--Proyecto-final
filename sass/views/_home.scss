@@ -1,5 +1,8 @@
 /*MAIN HOME*/
 
+#home{
+    border-bottom: 3px solid $terciary;
+}
 .main{
     display: flex;
     flex-direction: column;
