@@ -8,87 +8,156 @@
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <picture>
-                <img src="./public/img/general/letra blanco.png" alt="Teknia- climbing shoes- tipografia en color blanco"><a href="../index.html"></a></img>
+
+    <header class="container-1">
+        <nav class=" navbar flex-row">
+            <picture class="navbar__picture">
+                <img class="navbar__picture--img" src="../public/img/general/letra.png" alt="Teknia- climbing shoes- tipografia en color blanco"><a href="../index.html"></a></img>
             </picture>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./about-us.html">Nosotros</a></li>
-                <li><a href="./product-service.html">Productos y Servicios</a></li>
-                <li><a href="./gallery.html">Galeria</a></li>
-                <li><a href="./contact.html">Contacto</a></li>
+            <ul class="navbar__menu flex-row">
+                <li class="navbar__menu--item">
+                    <a class="navbar__menu--link" href="../index.html">Home</a>
+                </li>
+                <li class="navbar__menu--item">
+                    <a class="navbar__menu--link"  href="./about-us.html">Nosotros</a>
+                </li>
+                <li class="navbar__menu--item" id="pys">
+                    <a class="navbar__menu--link" href="./public/product-service.html">Productos y Servicios</a>
+                </li>
+                <li class="navbar__menu--item">
+                    <a class="navbar__menu--link" href="./gallery.html">Galeria</a>
+                </li>
+                <li class="navbar__menu--item">
+                    <a class="navbar__menu--link" href="./public/contact.html">Contacto</a>
+                </li>
             </ul>
         </nav>
     </header>
 
+
+
+
     <main>
-        <div class="container cont__prodts">
-            <div>
+        <div class="container-2 flex-co">
+
+            <div class="title-pys">
                 <h1>Productos y Servicios</h1>
             </div>
-            <div>
-                <h2>Pédulas</h2>
-                <article>
-                    <p>Diseñamos, producimos y distribuimos zapatillas para escalada a todo el territorio nacional.</p>
-                    <p>Cada modelo es trabajado y confeccionado artesanalmente para que se adapte a cada modalidad de escalada, de esta forma el escalador puede elegir el calzado que más le convenga. </p>
-                </article>
-                <picture>
-                    <img src="" alt="">
-                </picture>
+
+            
+            <div class="pys__info">
+                <div class="pys__pedu">
+                    <h2 class="pd-g1">Pédulas</h2>
+    
+                    <article class="pys__pedu__text pd-g2">
+                        <p class="pys__text--item">Diseñamos, producimos y distribuimos zapatillas para escalada a todo el territorio nacional.</p>
+                        <p class="pys__text--item">Cada modelo es trabajado y confeccionado artesanalmente para que se adapte a cada modalidad de escalada, de esta forma el escalador puede elegir el calzado que más le convenga. </p>
+                    </article>
+                    <picture class="pd-g3">
+                        <img class="img-1" src="./img/3 product and service/factory.jpg" alt="Foto interior de la fabrica de teknia">
+                    </picture>
+                </div>
+    
             </div>
+                
+            
+
+            
+            <div class="pys__info">
+                <div class="pys__resolados">
+                    <article  class="r-g1">
+                        <h2>Resolados</h2>
+                    </article>
+        
+                    <article class="pys__resolados__text r-g2">
+                           <p class="pys__text--item">Así mismo ofrecemos el servicio de reparación y resolados de pedulas usadas, para que no tengas que comprar un modelo nuevo y puedas seguir utilizando las tuyas.</p>
+                    </article>
+                    <picture class="r-g3">
+                        <img class="img-2" src="./img/3 product and service/resolado.jpg" alt="pedula gastada en la punta">
+                    </picture>   
+                </div>
+                
     
-    
-            <div>
-                <h2>Resolados</h2>
-                <p>Así mismo ofrecemos el servicio de reparación y resolados de pedulas usadas, para que no tengas que comprar un modelo nuevo y puedas seguir utilizando las tuyas.</p>
-                <picture>
-                    <img src="" alt="">
-                </picture>
             </div>
+
+            
     
     
-            <div>
-                <h2>Diseño y producción de tomas y multipresas</h2>
-                <p>Diseñamos, creamos y distribuimos piezas y tomas de escaladas de resina y de madera para equipar los rockodromos y palestras</p>
-                <p>Utilizamos nuestra propia fórmula de resina con madera para dar un estilo único y sofisticado con la mejor calidad.</p>
-                <p>También ofrecemos distintos modelos de multipresas para entrenar.</p>
-                <picture>
-                    <img src="" alt="">
-                </picture>
+    
+    
+                <div class="pys__info">
+                    <div class="pys__presas">
+                        <article class="pr-g1">
+                            <h2 >Diseño de productos</h2>
+                        </article>
+                        <article class="pr-g2">
+                            <p class="pys__text--item">Diseñamos, creamos y distribuimos piezas y tomas de escaladas de resina y de madera para equipar los rockodromos y palestras</p>
+                            <p class="pys__text--item">Utilizamos nuestra propia fórmula de resina con madera para dar un estilo único y sofisticado con la mejor calidad.</p>
+                            <p class="pys__text--item">También ofrecemos distintos modelos de multipresas para entrenar.</p>
+                        </article>
+                        <picture class="pr-g3">
+                            <img class="img-3" src="./img/3 product and service/diseño.jpg" alt="diseño de productos">
+                        </picture>
+                    </div>
+
+                    
+
+                </div>
+    
+    
+                <div class="pys__info">
+                    <div class="pys__rock">
+                        <article class="dyc-g1">
+                            <h2>Diseño y construcción de Rockodromos/Palestras</h2>
+                        </article>
+
+                        <div class="dyc-g2">
+                            <p class="pys__text--item">Si quieres montar tu propio gimnasio para entrenar, ya sea para uso personal o para un centro de entrenamiento, nosotros podemos asesorar, diseñar y desarrollar lo que buscas.</p>
+
+                            <p class="pys__text--item">Consulta por presupuestos.</p>
+                        </div>
+                        <picture class="dyc-g3">
+                            <img class="img-4" src="./img/3 product and service/di pale.jpg" alt="diseño y planificación de palestras de escalada">
+                        </picture>
+
+                    </div>
+
+
+                </div>
             </div>
-    
-    
-            <div>
-                <h2>Diseño y construcción de Rockodromos/Palestras</h2>
-                <p>Si quieres montar tu propio gimnasio para entrenar, ya sea para uso personal o para un centro de entrenamiento, nosotros podemos asesorar, diseñar y desarrollar lo que buscas.</p>
-                <p>Consulta por presupuestos.</p>
-                <picture>
-                    <img src="" alt="">
-                </picture>
-            </div>
-        </div><!--Pedulas+ Resolados + diseño y produccion de tomas y multipresas + diseño y armado de rocodromos + diseño de boulders-->
+
+
+            
+
+        </div>
     </main>
 
-    <footer>
-        <div class="container foot">
+    <footer class="footer">
+        <div class="container-1 foot flex-row">
             <div class="foot__text">
-                <p>Este sitio web es de carácter ficticio con el propósito de ser utilizado con fines educativos.</p>
+                <p class="">Este sitio web es de carácter ficticio con el propósito de ser utilizado con fines educativos.</p>
                 <p>La marca Teknia- Climbing Shoes se dedica únicamente a la producción, distribución y resolados de pedulas de escalada.</p>
                 <p>Las imágenes y videos utilizados son extraídos de internet y son para uso representativo y fines didácticos.</p>
                 <p>Espero que si algún día se cruzan con este sitio web se puedan tomar las cosas con humor y no me denuncien, jaja.</p>
                 <p>Atentamente Nicanor Henkel Cop- NicaHenkel.</p>
             </div>
             <picture class="foot__img">
-                <img class="foot__img--tipography" src="./public/img/general/letra blanco.png" alt="Teknia- climbing shoes- tipografia en color blanco"><a href="./index.html"></a></img>
+                <img class="foot__img--tipography" src="../public/img/general/letra.png" alt="Teknia- climbing shoes- tipografia en color negro">
+                <a href="../index.html"></a>
+            </img>
             </picture>
             <picture class="foot__link">
-                <img class="foot__link--icon" src="./public/img/general/iconos/001-whatsapp blanco.png" alt="icono de whatsapp blanco"><a href="https://wa.me/+5492944683407?text=¡Quiero+saber+más!"></a></img>
-                <img class="foot__link--icon" src="./public/img/general/iconos/002-instagram blanco.png" alt="icono de instagram blanco"><a href="https://www.instagram.com/teknia_shoes/"></a></img>
-                <img class="foot__link--icon" src="./public/img/general/iconos/email blaco.png" alt="icono de emailblanco"><a href="./contact.html"></a></img>                      
-            </picture>   
-        </div>        
+                <img class="foot__link--icon" src="../public/img/general/iconos/Group 1.svg" alt="icono de whatsapp">
+                    <a href="https://wa.me/+5492944683407?text=¡Quiero+saber+más!"></a>
+                </img>
+                <img class="foot__link--icon" src="../public/img/general/iconos/instagram.svg" alt="icono de instagram">
+                    <a href="https://www.instagram.com/teknia_shoes/"></a>
+                </img>
+                <img class="foot__link--icon" src="../public/img/general/iconos/mail.svg" alt="icono de email">
+                    <a href="./contact.html"></a>
+                </img>                      
+            </picture>
+        </div>
     </footer>
     
 </body>

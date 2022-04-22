@@ -141,6 +141,95 @@ main div .cont__about {
 .text-myv {
   justify-content: flex-end; }
 
+#pys {
+  border-bottom: 3px solid #FF7A00; }
+
+.pys__info {
+  height: 25%; }
+
+.pys__pedu {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 3fr;
+  gap: 20px;
+  margin: 16rem 0; }
+  .pys__pedu .pd-g1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: flex-end; }
+  .pys__pedu .pd-g2 {
+    grid-column: 1/2;
+    grid-row: 2/3; }
+  .pys__pedu .pd-g3 {
+    grid-column: 2/3;
+    grid-row: 1/3; }
+    .pys__pedu .pd-g3 .img-1 {
+      border-left: 15px solid #FF7A00; }
+
+.pys__resolados {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 3fr;
+  gap: 20px;
+  margin: 16rem 0; }
+  .pys__resolados .r-g1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center; }
+  .pys__resolados .r-g2 {
+    grid-column: 2/3;
+    grid-row: 2/3; }
+  .pys__resolados .r-g3 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    justify-self: flex-end; }
+    .pys__resolados .r-g3 .img-2 {
+      border-right: 15px solid #FF7A00; }
+
+.pys__presas {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 3fr;
+  gap: 20px;
+  margin: 16rem 0; }
+  .pys__presas .pr-g1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: flex-end;
+    justify-self: flex-end; }
+  .pys__presas .pr-g2 {
+    grid-column: 1/2;
+    grid-row: 2/3; }
+  .pys__presas .pr-g3 {
+    grid-column: 2/3;
+    grid-row: 1/3; }
+    .pys__presas .pr-g3 .img-3 {
+      border-left: 15px solid #FF7A00; }
+
+.pys__rock {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 3fr;
+  gap: 20px;
+  margin: 16rem 0; }
+  .pys__rock .dyc-g1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center; }
+  .pys__rock .dyc-g2 {
+    grid-column: 2/3;
+    grid-row: 2/3; }
+  .pys__rock .dyc-g3 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    justify-self: flex-end; }
+    .pys__rock .dyc-g3 .img-4 {
+      border-right: 15px solid #FF7A00; }
+
+.pys__text--item {
+  font-size: 1.8em; }
+
 /*FOOTER*/
 footer .foot {
   background-color: #BFDE4B;
