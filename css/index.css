@@ -89,7 +89,7 @@ header {
 .tittle-tek {
   padding: 4rem; }
   .tittle-tek__descrip {
-    font-size: 2em;
+    font-size: 1.8em;
     justify-content: center; }
 
 /*ABOUT-US*/
@@ -135,7 +135,7 @@ main div .cont__about {
   justify-content: center;
   text-align: justify; }
   .about__text--parr {
-    font-size: 1.6em;
+    font-size: 1.8em;
     width: 65%; }
 
 .text-myv {
@@ -231,6 +231,36 @@ main div .cont__about {
 
 .pys__text--item {
   font-size: 1.8em; }
+
+/*GALLERY*/
+#gallery {
+  border-bottom: 3px solid #FF7A00; }
+
+.cont__gallery {
+  margin: 10rem 0; }
+  .cont__gallery .gall__pic {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 0;
+    opacity: 0.8; }
+  .cont__gallery--cont {
+    display: inline-grid; }
+    .cont__gallery--cont .h3-subtitle {
+      font-size: 2em;
+      justify-self: center; }
+  .cont__gallery--video {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px; }
+
+article .subtitle-gal-item {
+  display: flex;
+  justify-content: center; }
+
+article .subtitle-gal-description {
+  font-size: 1.4em;
+  display: flex;
+  justify-content: center; }
 
 /*FOOTER*/
 footer .foot {

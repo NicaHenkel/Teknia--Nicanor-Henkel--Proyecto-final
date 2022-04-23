@@ -1,0 +1,48 @@
+/*GALLERY*/
+
+#gallery{
+    border-bottom: 3px solid $terciary;
+}
+.cont__gallery{
+    margin: 10rem 0;
+    
+    .gall__pic{
+        display: flex;
+        justify-content: space-between;
+        margin: 5rem 0;
+        opacity: 0.8;
+        
+        }   
+        &--cont{
+            display: inline-grid;
+            .h3-subtitle{
+                font-size: $size-title3;       
+                justify-self: center;
+            }
+        } 
+        
+        &--video{
+              display: flex;        
+              flex-wrap: wrap;
+              margin: 10px;
+          }
+    }
+    
+
+   
+
+
+article .subtitle-gal{
+    &-item{    
+        display: flex;        
+        justify-content: center;
+    }  
+    &-description{
+        font-size: $size-info;
+        display: flex;
+        justify-content: center;
+    }  
+}
+
+
+
