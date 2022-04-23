@@ -105,9 +105,7 @@ main div .cont__about {
 .cont__text {
   margin-top: 5rem;
   height: 33rem;
-  width: 100%;
-  align-items: center;
-  justify-items: right; }
+  align-items: center; }
 
 .bg-img {
   max-width: 1506px; }
@@ -259,6 +257,7 @@ article .subtitle-gal-item {
 
 article .subtitle-gal-description {
   font-size: 1.4em;
+  margin: 5px 0;
   display: flex;
   justify-content: center; }
 
