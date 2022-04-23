@@ -10,116 +10,181 @@
 
 </head>
 <body>
-    <header>
-        <nav>
-            <picture>
-                <img src="./public/img/general/letra blanco.png" alt="Teknia- climbing shoes- tipografia en color blanco"><a href="../index.html"></a></img>
+    <header class="container-1">
+        <nav class=" navbar flex-row">
+            <picture class="navbar__picture">
+                <img class="navbar__picture--img" src="../public/img/general/letra.png" alt="Teknia- climbing shoes- tipografia en color blanco"><a href="../index.html"></a></img>
             </picture>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./about-us.html">Nosotros</a></li>
-                <li><a href="./product-service.html">Productos y Servicios</a></li>
-                <li><a href="./gallery.html">Galeria</a></li>
-                <li><a href="./contact.html">Contacto</a></li>
+            <ul class="navbar__menu flex-row">
+                <li class="navbar__menu--item">
+                    <a class="navbar__menu--link" href="../index.html">Home</a>
+                </li>
+                <li class="navbar__menu--item">
+                    <a class="navbar__menu--link" href="./about-us.html">Nosotros</a>
+                </li>
+                <li class="navbar__menu--item">
+                    <a class="navbar__menu--link" href="./product-service.html">Productos y Servicios</a>
+                </li>
+                <li class="navbar__menu--item" id="gallery">
+                    <a class="navbar__menu--link" href="./gallery.html">Galeria</a>
+                </li>
+                <li class="navbar__menu--item">
+                    <a class="navbar__menu--link" href="./contact.html">Contacto</a>
+                </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="container cont__gallery">
+        <div class="container-2 ">
             <div>
                 <h1>Galeria</h1>
             </div>
-            <div> <!--Pedulas-->
-                <article>
-                    <img src="./img/4 galeria/Pedulas/1 TRITON.jpg" alt="Foto de zapatilla de escalada Teknia modelo triton">
-                    <p>Triton</p>
+
+
+            <div class="cont__gallery"> 
+                <article class="subtitle-gal">
+                    <h2 class="subtitle-gal-item">Pedulas</h2>
                 </article>
-                <article>
-                    <img src="./img/4 galeria/Pedulas/2 BECADAM.jpg" alt="Foto de zapatilla de escalada Teknia modelo becadam">
-                    <p>Becadam</p>
-                </article>
-                <article>
-                    <img src="./img/4 galeria/Pedulas/3 ZEN.jpg" alt="Foto de zapatilla de escalada Teknia modelo Zen">
-                    <p>Zen</p>
-                </article>
-                <article>
-                    <img src="./img/4 galeria/Pedulas/4 STUKA.jpg" alt="Foto de zapatilla de escalada Teknia modelo stuka">
-                    <p>Stuka</p>
-                </article>
+                <div class="flex-row gall__pic">
+                    <picture class="gall__pic--cont">
+                        <img class="gall__pic--img" src="./img/4 galeria/Pedulas/1 TRITON.jpg" alt="Foto de zapatilla de escalada Teknia modelo triton">
+                        <h3 class="h3-subtitle">Triton</h3>
+                    </picture>
+                    <picture class="gall__pic--cont">
+                        <img src="./img/4 galeria/Pedulas/2 BECADAM.jpg" alt="Foto de zapatilla de escalada Teknia modelo becadam">
+                        <h3 class="h3-subtitle">Becadam</h3>
+                    </picture>
+                    <picture class="gall__pic--cont">
+                        <img src="./img/4 galeria/Pedulas/3 ZEN.jpg" alt="Foto de zapatilla de escalada Teknia modelo Zen">
+                        <h3 class="h3-subtitle">Zen</h3>
+                    </picture>
+                    <picture class="gall__pic--cont">
+                        <img src="./img/4 galeria/Pedulas/4 STUKA.jpg" alt="Foto de zapatilla de escalada Teknia modelo stuka">
+                        <h3 class="h3-subtitle">Stuka</h3>
+                    </picture>
+                </div>
             </div>
-            <div><!--tomas y multipresas-->
-                <article>
-                    <img src="./img/4 galeria/Presas y multipresas/1 presa madera.jpeg" alt="presas de madera para muro de escalada Teknia">
-                    <p>Presas de madera</p>
+
+            <div class="cont__gallery">
+                <article class="subtitle-gal">
+                    <h2 class="subtitle-gal-item">Tomas y Multipresas</h2>
                 </article>
-                <article>
-                    <img src="./img/4 galeria/Presas y multipresas/2 presa plastico.jpg" alt="presas de plastico para muro de escalada Teknia">
-                    <p>Presas de resina</p>
+                <div class="flex-row gall__pic">
+                    <article class="gall__pic--cont">
+                        <picture>
+                            <img src="./img/4 galeria/Presas y multipresas/1 presa madera.jpg" alt="Imagen presas de escalada de madera">
+                        </picture>
+                        <h3 class="h3-subtitle">Presas de madera</h3>
+                    </article>  
+                    <article class="gall__pic--cont">
+                        <picture>
+                            <img src="./img/4 galeria/Presas y multipresas/2 presa plastico.jpg" alt="Imagen presas de escalada de plástico">
+                        </picture>
+                        <h3 class="h3-subtitle">Presas de plástico</h3>
+                    </article>  
+                    <article class="gall__pic--cont">
+                        <picture>
+                            <img src="./img/4 galeria/Presas y multipresas/3 multipresa madera .jpg" alt="Multipresa modificable de madera para entrenamiento de escalada">
+                        </picture>
+                        <h3 class="h3-subtitle">Multipresas de madera</h3>
+                    </article>  
+                    <article class="gall__pic--cont">
+                        <picture>
+                            <img src="./img/4 galeria/Presas y multipresas/4 multipresa.jpg" alt="Multipresa de plástico individual para escalada">
+                        </picture>
+                        <h3 class="h3-subtitle">Multipresa de plástico</h3>
+                    </article>  
+
+                </div>
+            </div>
+
+
+            <div class="cont__gallery">
+                <article class="subtitle-gal">
+                    <h2 class="subtitle-gal-item">Rockodromos</h2>
                 </article>
-                <article>
-                    <img src="./img/4 galeria/Presas y multipresas/3 multipresa madera .jpg" alt="multipresa de madera modificable Teknia">
-                    <p>Multipresa de madera modificable</p>
-                </article>
-                <article>
-                    <img src="./img/4 galeria/Presas y multipresas/4 multipresa.jpg" alt="Multipresa de plastico individual Teknia">
-                    <p>Multipresa individual de plástico</p>
-                </article>
-            </div> 
-            <div>
-                <article><!--Rocodromos-->
-                    <img src="./img/4 galeria/Rockodromos/1 la plata.jpg" alt="Rockodromo La plata">
-                    <p>Rocodromo La Plata</p>
-                </article>
-                <article>
-                    <img src="./img/4 galeria/Rockodromos/2 particular.jpg" alt="Rockodromo particular">
-                    <p>Rockodromo Particular</p>
-                </article>
-                <article>
-                    <img src="./img/4 galeria/Rockodromos/3 san luis.jpg" alt="Rockodromo San Luis">
-                    <p>Rockodromo San Luis</p>
-                </article>
-                <article>
-                    <img src="./img/4 galeria/Rockodromos/4 bariloche.jpg" alt="Antropia Bariloche">
-                    <p>Rockodromo Bariloche</p>
-                </article>
-            </div> 
-            <div>
-                <p>Y para que se entretengan un poco más (y se manijeen) les dejamos algunos videos de escaladores indors y outdors... </p>
-                <article><!--Links videos youtube-->
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZRTNHDd0gL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </article>
-                <article>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cM8gO4IDN_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </article>
-                <article>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/khb7pSEUedc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </article>
-                <article>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/C_N8znD3exI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </article>
-            </div>     
+                <div class="flex-row gall__pic">
+                    <article class="gall__pic--cont">
+                        <picture>
+                            <img src="./img/4 galeria/Rockodromos/1 la plata.jpg" alt="Palestra de escalada de La Plata, Buenos Aires">
+                        </picture>
+                        <h3 class="h3-subtitle">La plata</h3>
+                    </article>  
+                    <article class="gall__pic--cont">
+                        <picture>
+                            <img src="./img/4 galeria/Rockodromos/2 particular.jpg" alt="Palestra de escalada particular">
+                        </picture>
+                        <h3 class="h3-subtitle">Particular</h3>
+                    </article>  
+                    <article class="gall__pic--cont">
+                        <picture>
+                            <img src="./img/4 galeria/Rockodromos/3 san luis.jpg" alt="Palestra de escalada de San Luis, Argentina">
+                        </picture>
+                        <h3 class="h3-subtitle">San Luis</h3>
+                    </article>  
+                    <article class="gall__pic--cont">
+                        <picture>
+                            <img src="./img/4 galeria/Rockodromos/4 bariloche.jpg" alt="Palestra de escalada Antropia, San Carlos de Bariloche, Argentina">
+                        </picture>
+                        <h3 class="h3-subtitle">Bariloche</h3>
+                    </article>  
+                </div>
+
+                <div class="cont__gallery">
+                    <article class="subtitle-gal">
+                        <h2 class="subtitle-gal-item">Videos</h2>
+                        <p class="subtitle-gal-description">Y para que se entretengan un poco más (y se manijeen) les dejamos algunos videos de escaladores indors y outdors...</p>
+                    </article>
+                    <div class="flex-row">
+                        <article class="cont__gallery--video">
+                            <iframe width="500" height="281.25" src="https://www.youtube.com/embed/ZRTNHDd0gL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </article>
+                        <article class="cont__gallery--video">
+                            <iframe width="500" height="281.25" src="https://www.youtube.com/embed/cM8gO4IDN_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </article>
+                    </div>
+                    <div class="flex-row">
+                        <article class="cont__gallery--video">
+                            <iframe width="500" height="281.25" src="https://www.youtube.com/embed/OGMEnCLuwg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            
+                        </article>
+                        <article class="cont__gallery--video">
+                            <iframe width="500" height="281.25" src="https://www.youtube.com/embed/2cDokzy9gxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </article>
+                        
+                    </div>
+                </div>
+            </div>      
+
         </div>
     </main>
 
-    <footer>
-        <div class="container foot">
+    <footer class="footer">
+        <div class="container-1 foot flex-row">
             <div class="foot__text">
-                <p>Este sitio web es de carácter ficticio con el propósito de ser utilizado con fines educativos.</p>
+                <p class="">Este sitio web es de carácter ficticio con el propósito de ser utilizado con fines educativos.</p>
                 <p>La marca Teknia- Climbing Shoes se dedica únicamente a la producción, distribución y resolados de pedulas de escalada.</p>
                 <p>Las imágenes y videos utilizados son extraídos de internet y son para uso representativo y fines didácticos.</p>
                 <p>Espero que si algún día se cruzan con este sitio web se puedan tomar las cosas con humor y no me denuncien, jaja.</p>
                 <p>Atentamente Nicanor Henkel Cop- NicaHenkel.</p>
             </div>
             <picture class="foot__img">
-                <img class="foot__img--tipography" src="./public/img/general/letra blanco.png" alt="Teknia- climbing shoes- tipografia en color blanco"><a href="./index.html"></a></img>
+                <img class="foot__img--tipography" src="../public/img/general/letra.png" alt="Teknia- climbing shoes- tipografia en color negro">
+                <a href="../index.html"></a>
+            </img>
             </picture>
             <picture class="foot__link">
-                <img class="foot__link--icon" src="./public/img/general/iconos/001-whatsapp blanco.png" alt="icono de whatsapp blanco"><a href="https://wa.me/+5492944683407?text=¡Quiero+saber+más!"></a></img>
-                <img class="foot__link--icon" src="./public/img/general/iconos/002-instagram blanco.png" alt="icono de instagram blanco"><a href="https://www.instagram.com/teknia_shoes/"></a></img>
-                <img class="foot__link--icon" src="./public/img/general/iconos/email blaco.png" alt="icono de emailblanco"><a href="./contact.html"></a></img>                      
-            </picture>   
-        </div>        
+                <a target="_blak" href="https://wa.me/+5492944683407?text=¡Quiero+saber+más!">
+                    <img src="../public/img/general/iconos/Group 1.svg" alt="icono de whatsapp">
+                </a>                
+                <img class="foot__link--icon" src="../public/img/general/iconos/instagram.svg" alt="icono de instagram">
+                    <a href="https://www.instagram.com/teknia_shoes/"></a>
+                </img>
+                <img class="foot__link--icon" src="../public/img/general/iconos/mail.svg" alt="icono de email">
+                    <a href="./contact.html"></a>
+                </img>                      
+            </picture>
+        </div>
     </footer>
     
 </body>
