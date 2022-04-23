@@ -24,11 +24,28 @@
         
     }
     .cont__text--item{
-        font-size: $size-desc;
-        margin-bottom: 35px;
+        font-size: $size-title2;
+        
+    }
+    
+    .cont__list{
+        list-style: url('../public/img/contact/carabiner.png');
+        font-size: $size-title3;
+    }
+    .cont__flechita{
+            
+        @keyframes flechita {
+            0% {rotate: (45deg);}
+            50% {rotate: (0deg);}
+            100% {rotate:(45deg);}            
+        }
+        animation-name: flechita;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
     }
     
 }
+
 #nya-height{
     height: 25px;
 }
