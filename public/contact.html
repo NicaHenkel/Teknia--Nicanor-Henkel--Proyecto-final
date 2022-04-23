@@ -10,58 +10,106 @@
 
 
 <body>
-    <header>
-        <nav>
-            <picture>
-                <img src="./public/img/general/letra blanco.png" alt="Teknia- climbing shoes- tipografia en color blanco"><a href="../index.html"></a></img>
+    <header class="container-1">
+        <nav class=" navbar flex-row">
+            <picture class="navbar__picture">
+                <img class="navbar__picture--img" src="../public/img/general/letra.png" alt="Teknia- climbing shoes- tipografia en color blanco"><a href="../index.html"></a></img>
             </picture>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./about-us.html">Nosotros</a></li>
-                <li><a href="./product-service.html">Productos y Servicios</a></li>
-                <li><a href="./gallery.html">Galeria</a></li>
-                <li><a href="./contact.html">Contacto</a></li>
+            <ul class="navbar__menu flex-row">
+                <li class="navbar__menu--item">
+                    <a class="navbar__menu--link" href="../index.html">Home</a>
+                </li>
+                <li class="navbar__menu--item">
+                    <a class="navbar__menu--link" href="./about-us.html">Nosotros</a>
+                </li>
+                <li class="navbar__menu--item">
+                    <a class="navbar__menu--link" href="./product-service.html">Productos y Servicios</a>
+                </li>
+                <li class="navbar__menu--item">
+                    <a class="navbar__menu--link" href="./gallery.html">Galeria</a>
+                </li>
+                <li class="navbar__menu--item" id="contact">
+                    <a class="navbar__menu--link" href="./contact.html">Contacto</a>
+                </li>
             </ul>
         </nav>
     </header>
-
     
-    <main>
-        <div class="conteiner cont__contact">
-            <div>
+    <main id="main-contact">
+        <div class="container-2">
+            <article>
                 <h1>Contacto</h1>
-            </div>
-            <div>
-                <input type="text" name="Nombre y apellido" id="" placeholder="Nombre y Apellido">
-                <input type="email" name="Email" id="" placeholder="xxx.zzz@aaaa.com">
-                <input type="tel" name="Telefono" id="" placeholder="(011)15666666">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Preguntas"></textarea>
-                <input type="submit" value="Enviar">
-            </div>
-            <p>Por cualquier duda o consulta no dudes en comunicarte con nosotros.</p>
-            <p>Siguenos en nuestras redes sociales!</p>
+            </article>
+    
+            <div class="flex-row cont__elements">
+                <div class="flex-column cont__form"> 
+                    <input type="text" name="Nombre y apellido" id="nya-height" placeholder="Nombre y Apellido">
+                    <input type="email" name="Email" id="nya-height" placeholder="xxx.zzz@aaaa.com">
+                    <input type="tel" name="Telefono" id="nya-height" placeholder="(011)15666666">
+                    <textarea name="" id="" cols="60" rows="15" placeholder="Preguntas"></textarea>
+                    <input type="submit" value="Enviar">
+                </div>
+                <article>
+                    <p class="cont__text--item">Por cualquier duda o consulta no dudes en comunicarte con nosotros.</p>
+                    <p class="cont__text--item">Siguenos en nuestras redes sociales!</p>
+                </article>
+
             </div>
         </div>
+        
     </main>
 
-    <footer>
-        <div class="container foot">
+    <footer class="footer">
+        <div class="container-1 foot flex-row">
             <div class="foot__text">
-                <p>Este sitio web es de carácter ficticio con el propósito de ser utilizado con fines educativos.</p>
+                <p class="">Este sitio web es de carácter ficticio con el propósito de ser utilizado con fines educativos.</p>
                 <p>La marca Teknia- Climbing Shoes se dedica únicamente a la producción, distribución y resolados de pedulas de escalada.</p>
                 <p>Las imágenes y videos utilizados son extraídos de internet y son para uso representativo y fines didácticos.</p>
                 <p>Espero que si algún día se cruzan con este sitio web se puedan tomar las cosas con humor y no me denuncien, jaja.</p>
                 <p>Atentamente Nicanor Henkel Cop- NicaHenkel.</p>
             </div>
             <picture class="foot__img">
-                <img class="foot__img--tipography" src="./public/img/general/letra blanco.png" alt="Teknia- climbing shoes- tipografia en color blanco"><a href="./index.html"></a></img>
+                <img class="foot__img--tipography" src="../public/img/general/letra.png" alt="Teknia- climbing shoes- tipografia en color negro">
+                <a href="../index.html"></a>
+            </img>
             </picture>
             <picture class="foot__link">
-                <img class="foot__link--icon" src="./public/img/general/iconos/001-whatsapp blanco.png" alt="icono de whatsapp blanco"><a href="https://wa.me/+5492944683407?text=¡Quiero+saber+más!"></a></img>
-                <img class="foot__link--icon" src="./public/img/general/iconos/002-instagram blanco.png" alt="icono de instagram blanco"><a href="https://www.instagram.com/teknia_shoes/"></a></img>
-                <img class="foot__link--icon" src="./public/img/general/iconos/email blaco.png" alt="icono de emailblanco"><a href="./contact.html"></a></img>                      
-            </picture>   
-        </div>        
-    </footer>
+                <a target="_blak" href="https://wa.me/+5492944683407?text=¡Quiero+saber+más!">
+                    <img src="../public/img/general/iconos/Group 1.svg" alt="icono de whatsapp">
+                </a>                
+                <img class="foot__link--icon" src="../public/img/general/iconos/instagram.svg" alt="icono de instagram">
+                    <a href="https://www.instagram.com/teknia_shoes/"></a>
+                </img>
+                <img class="foot__link--icon" src="../public/img/general/iconos/mail.svg" alt="icono de email">
+                    <a href="./contact.html"></a>
+                </img>                      
+            </picture>
+        </div>
+    </footer>   
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="flex-row contact__cont">
+    <div class=" contact__form flex-column">
+        <input type="text" name="Nombre y apellido" id="" placeholder="Nombre y Apellido">
+        <input type="email" name="Email" id="" placeholder="xxx.zzz@aaaa.com">
+        <input type="tel" name="Telefono" id="" placeholder="(011)15666666">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Preguntas"></textarea>
+        <input type="submit" value="Enviar">
+    </div>
+    <div class="flex-column contact__text">
+        <p>Por cualquier duda o consulta no dudes en comunicarte con nosotros.</p>
+        <p>Siguenos en nuestras redes sociales!</p>
+    </div>
+</div>-->

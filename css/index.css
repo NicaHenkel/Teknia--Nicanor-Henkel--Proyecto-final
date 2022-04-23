@@ -262,6 +262,29 @@ article .subtitle-gal-description {
   display: flex;
   justify-content: center; }
 
+/*CONTACT*/
+#contact {
+  border-bottom: 3px solid #FF7A00; }
+
+#main-contact {
+  background-color: #dcf581; }
+
+.cont__elements {
+  margin-top: 40px;
+  height: 80vh;
+  display: flex;
+  justify-content: space-around; }
+  .cont__elements .cont__form {
+    height: 70vh;
+    width: 40%;
+    gap: 10px; }
+  .cont__elements .cont__text--item {
+    font-size: 1.8em;
+    margin-bottom: 35px; }
+
+#nya-height {
+  height: 25px; }
+
 /*FOOTER*/
 footer .foot {
   background-color: #BFDE4B;
