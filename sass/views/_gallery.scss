@@ -10,7 +10,7 @@
         display: flex;
         justify-content: space-between;
         margin: 5rem 0;
-        opacity: 0.8;
+        
         
         }   
         &--cont{
@@ -26,8 +26,18 @@
               flex-wrap: wrap;
               margin: 10px;
           }
+        
+          
+        
+
     }
     
+    .gall__pic--img{
+        opacity: 0.6;
+        &:hover{
+            opacity: 1;
+        }
+    }
 
    
 

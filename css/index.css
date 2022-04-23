@@ -66,6 +66,9 @@ header {
 #home {
   border-bottom: 3px solid #FF7A00; }
 
+.background__home {
+  background-color: black; }
+
 .main {
   display: flex;
   flex-direction: column;
@@ -89,8 +92,30 @@ header {
 .tittle-tek {
   padding: 4rem; }
   .tittle-tek__descrip {
-    font-size: 1.8em;
-    justify-content: center; }
+    margin-top: 30px;
+    font-size: 2.4em;
+    justify-content: center;
+    color: #fff; }
+
+.home__enlaces {
+  margin: 40px 0;
+  justify-content: space-between; }
+  .home__enlaces--link {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.4em; }
+  .home__enlaces--img {
+    opacity: 0.6;
+    height: 220px;
+    padding: 8px;
+    border: 1.5px solid #fff;
+    border-radius: 10px; }
+  .home__enlaces--img:hover {
+    opacity: 1; }
+
+.subtitle__img {
+  color: #fff;
+  font-size: 1.4em; }
 
 /*ABOUT-US*/
 #nos {
@@ -108,8 +133,7 @@ main div .cont__about {
   align-items: center; }
 
 .bg-img {
-  max-width: 1506px;
-  opacity: 0.8; }
+  max-width: 1506px; }
 
 .about__title2 {
   font-size: 3em;
@@ -240,8 +264,7 @@ main div .cont__about {
   .cont__gallery .gall__pic {
     display: flex;
     justify-content: space-between;
-    margin: 5rem 0;
-    opacity: 0.8; }
+    margin: 5rem 0; }
   .cont__gallery--cont {
     display: inline-grid; }
     .cont__gallery--cont .h3-subtitle {
@@ -251,6 +274,11 @@ main div .cont__about {
     display: flex;
     flex-wrap: wrap;
     margin: 10px; }
+
+.gall__pic--img {
+  opacity: 0.6; }
+  .gall__pic--img:hover {
+    opacity: 1; }
 
 article .subtitle-gal-item {
   display: flex;

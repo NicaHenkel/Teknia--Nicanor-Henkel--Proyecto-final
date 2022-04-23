@@ -3,12 +3,17 @@
 #home{
     border-bottom: 3px solid $terciary;
 }
+
+.background__home{
+    background-color: black;
+}
 .main{
     display: flex;
     flex-direction: column;
     height: 100%;
     max-width: 1080px;
     margin: auto;
+    
     
 }
 .cont__home{
@@ -35,9 +40,38 @@
     padding: 4rem;
     
     &__descrip{
-        font-size: $size-desc;
+        margin-top: 30px;
+        font-size: $size-title2;
         justify-content: center;
+        color: $secondary;
     }
     
+}
+
+.home__enlaces{
+    margin: 40px 0;
+    justify-content: space-between;
+    &--link{
+        text-decoration: none;
+        text-align: center;
+        font-size: $size-info;
+    }
+    &--img{
+        opacity: 0.6;
+        height: 220px;
+        padding: 8px;
+        border: 1.5px solid $secondary;
+        border-radius: 10px;
+        
+    }
+    &--img:hover{
+        opacity: 1;
+    }
+
+}
+.subtitle__img{
+    
+    color: $secondary;
+    font-size: $size-info;
 }
 
