@@ -62,5 +62,8 @@ main div .cont__about{
 }
 
 .text-myv{
-    justify-content: flex-end;
+    display: inline-grid;
+    flex-direction: column;
+    justify-items: flex-end;
+    
 }
