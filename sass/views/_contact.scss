@@ -1,0 +1,24 @@
+/*CONTACT*/
+
+#contact{
+    border-bottom: 3px solid $terciary;
+}
+
+.cont--title{
+    display: flex;
+
+}
+.contact__cont{
+    justify-content: space-around;
+}
+
+
+.contact__form{
+    width: 30rem;
+    height: 80vh;    
+}
+ .contact__text{
+     display: inline-flex;
+     justify-content: flex-start;
+ }
+
