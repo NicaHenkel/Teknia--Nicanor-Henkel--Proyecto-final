@@ -41,27 +41,72 @@ header {
   background-color: #BFDE4B;
   position: sticky;
   top: 0;
-  z-index: 5; }
+  z-index: 1; }
 
 .navbar {
   max-height: 20vh;
   justify-content: space-around; }
-  .navbar__menu {
-    flex-basis: 50%;
+
+.nav__input:checked + .nav__menu {
+  background-color: green; }
+
+.nav__label, .nav__imput {
+  display: none; }
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.navbar__menu {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  list-style: none;
+  font-weight: bold; }
+  .navbar__menu--item {
+    align-self: center; }
+  .navbar__menu--link {
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #0b0c0d;
+    font-family: "Alegreya", sans-serif;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.2s; }
+    .navbar__menu--link:hover {
+      background-color: #cfeb54; }
+
+@media screen and (max-width: 1023px) {
+  .navbar {
+    display: grid;
+    place-items: center; }
+    .navbar__picture--img {
+      height: 37px; } }
+
+@media screen and (max-width: 599px) {
+  .header {
+    position: static;
+    top: 0; }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .nav__label {
+    display: block;
+    cursor: pointer; }
+  .nav__menu {
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    background-color: green;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 2rem;
-    list-style: none;
-    font-weight: bold; }
-    .navbar__menu--link {
-      font-size: 1.4em;
-      text-decoration: none;
-      color: #0b0c0d;
-      font-family: "Alegreya", sans-serif;
-      padding: 15px;
-      border-radius: 5px; }
-      .navbar__menu--link:hover {
-        background-color: #cfeb54; }
+    clip-path: circle(0 at center); } }
 
 /*MAIN HOME*/
 #home {
@@ -110,7 +155,8 @@ header {
     height: 220px;
     padding: 8px;
     border: 1.5px solid #fff;
-    border-radius: 10px; }
+    border-radius: 10px;
+    transition: 0.15s; }
   .home__enlaces--img:hover {
     opacity: 1; }
 
@@ -277,9 +323,18 @@ main div .cont__about {
     margin: 10px; }
 
 .gall__pic--img {
-  opacity: 0.6; }
+  opacity: 0.6;
+  transition: 0.15s;
+  padding: 5px;
+  border: 3px;
+  height: 220px; }
   .gall__pic--img:hover {
-    opacity: 1; }
+    opacity: 1;
+    border: 3px solid #FF7A00;
+    border-radius: 5px; }
+
+.subtitle-gal {
+  background-color: #eb9748; }
 
 article .subtitle-gal-item {
   display: flex;

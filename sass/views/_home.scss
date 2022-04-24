@@ -12,8 +12,7 @@
     flex-direction: column;
     height: 100%;
     max-width: 1080px;
-    margin: auto;
-    
+    margin: auto;   
     
 }
 .cont__home{
@@ -62,6 +61,7 @@
         padding: 8px;
         border: 1.5px solid $secondary;
         border-radius: 10px;
+        transition: 0.15s;
         
     }
     &--img:hover{
@@ -74,4 +74,12 @@
     color: $secondary;
     font-size: $size-info;
 }
+
+
+@media screen { }
+
+
+
+
+@media screen { }
 
