@@ -34,10 +34,8 @@ main div .cont__about{
     // height: 20rem;  
      
 }
-.title-a {
-    border-right: 20px solid $terciary;
-    padding: 2rem;
-}
+
+
 .title-b{
     order: 1;
     border-left: 20px solid $terciary;
@@ -68,9 +66,128 @@ main div .cont__about{
     
 }
 
-@media screen { }
+
+
+/*MEDIAS QUERIRES- ABOUT-US*/
+@media screen and (max-width: 1023px){
+   
+
+    main div .cont__about{
+        height: 100vh;
+        max-width: 1080px;
+        &__title1{
+            height: 20vh;
+        }
+    
+    }
+
+    .bg-img{
+        display: none;
+    }            
+    
+        
+    .cont__text {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 2rem;
+        height: auto;    
+    }
+    .about__text{
+        margin: 10px;
+        align-self: flex-start;
+        justify-content: flex-start;
+        text-align: justify;
+        &--parr{
+            width: 100%;
+        }
+    }
+
+    .about__title2{
+       
+        width: 60%;
+          
+         
+    }
+
+    .title-b{
+        order: 0;
+        border: none;
+        padding: 1rem;
+       
+    }
+    .text-myv{
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-start;
+    }
+
+    .title-c{
+        border:none;
+        padding: 1rem;
+      
+       
+    }
+}
 
 
 
 
-@media screen { }
+
+
+@media screen and (max-width: 599px){
+    main div .cont__about{
+        height: 100vh;
+        max-width: 1080px;
+        &__title1{
+            height: 20vh;
+        }
+    
+    }
+
+    .bg-img{
+        display: none;
+    }
+   .about__title1--item{
+       font-size: $size-title3;
+   }
+    .about__title2{
+        font-size: 1.4em;
+               
+    }
+        
+    .cont__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 2rem;
+        height: auto;    
+    }
+    .about__text{
+        margin: 10px;
+        align-self: flex-start;
+        justify-content: flex-start;
+        text-align: justify;
+        &--parr{
+            font-size: $size-info;
+            width: 100%;
+        }
+    }
+    .title-b{
+        order: 0;
+        border: none;
+        padding: 1rem;
+       
+    }
+    .text-myv{
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-start;
+    }
+
+    .title-c{
+        border-right:none;
+        padding: 3rem;
+       
+    }
+}
+
