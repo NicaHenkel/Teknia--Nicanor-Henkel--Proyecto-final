@@ -57,6 +57,13 @@ header{
         &__picture--img{
             height: 37px;
         }
+        &__menu{
+            gap: 30px;
+        }
+        &__menu--link{
+            padding: 0;
+        }
+
     }
 } 
 

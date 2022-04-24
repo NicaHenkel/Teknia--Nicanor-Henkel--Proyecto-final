@@ -3,7 +3,7 @@
 
 footer .foot {
     background-color: $quarter;
-    max-height: auto;
+    
     justify-content: space-between;
     align-items: center;
     &__text {
@@ -23,13 +23,49 @@ footer .foot {
 }
 
 
-@media screen { }
+@media screen and (min-width: 1024px){
+    footer .foot {
+       
+        &__text {            
+            width: 40%;           
+        }
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .footer{
+        max-width: 1023px;
+    }
+    footer .foot{
+        display: flex;
+        flex-direction: column;
+       
+        &__text{
+            width: 100%;
+            justify-content: center;
+            margin: 0;
+            text-align: center;
+        }
+        &__link{
+            &--icon{
+                height: 40px;
+            }
+        }
+    }
+    .parrafo{
+        width: 1023px;
+    }
+}
 
 
 
 
-@media screen { }
+@media screen and (max-width: 599px){
 
+    .foot__img--tipography{
+        height: 40px;
+    }
+}
 
 
 
