@@ -1,8 +1,10 @@
 /*GALLERY*/
 
+
 #gallery{
     border-bottom: 3px solid $terciary;
 }
+
 .cont__gallery{
     margin: 10rem 0;
     
@@ -21,25 +23,14 @@
             }
         } 
         
-        &--video{
-              display: flex;        
-              flex-wrap: wrap;
-              margin: 10px;
-          }
     }
     
-    .gall__pic--img{
-        opacity: 0.6;
-        transition: 0.15s;
-        padding: 5px;
-        border: 3px;
-        height: 220px;
-        &:hover{
-            opacity: 1;            
-            border: 3px solid $terciary;
-            border-radius: 5px;
-        }
-    }
+.yt__video{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+    
 .subtitle-gal{
     background-color: $terciary-b;
 }
@@ -59,11 +50,75 @@ article .subtitle-gal{
 
 
 /*MEDIAS QUERIES GALLERY*/
+@media screen and (min-width:1024px) {
+    .gall__pic--img{
+        opacity: 0.6;
+        &:hover{
+            opacity: 1;            
+            border: 3px solid $terciary;
+            border-radius: 5px;
+        }
+    }
+    
+}
 
-@media screen and (max-width: 1023px){}
+@media screen and (max-width: 1023px){
 
+    .cont__gallery{
+        margin: 5rem 0;
+        
+        .gall__pic{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            &--cont{
+                justify-self: center;               
+            }
+        }
+        .h3-subtitle{
+            text-align: center;
+        }
+    }
+    
+    .yt__video{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+        
+        
+       
 
-@media screen and (max-width: 599px){}
+@media screen and (max-width: 599px){
+
+    .title-gal{
+        font-size: $size-title3;
+    }
+    .subtitle-gal-item{
+        font-size: $size-info;
+    }
+    .cont__gallery{
+        margin: 2rem;
+         .gall__pic{
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+           &--cont{            
+            margin: 3rem 5rem;
+           }
+           
+            
+           
+        }
+    }
+    .yt__video--item{
+        width: 300px;
+        height: 168.75px;
+        
+    }
+}
 
 
 
