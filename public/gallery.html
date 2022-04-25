@@ -13,25 +13,20 @@
     <header class="container-1">
         <nav class=" navbar flex-row">
             <picture class="navbar__picture">
-                <img class="navbar__picture--img" src="../public/img/general/letra.png" alt="Teknia- climbing shoes- tipografia en color blanco"><a href="../index.html"></a></img>
+                <img class="navbar__picture--img" src="../public/img/general/letra.png" alt="Teknia- climbing shoes- tipografia en color blanco"><a href="./index.html"></a></img>
             </picture>
-            <ul class="navbar__menu flex-row">
-                <li class="navbar__menu--item">
-                    <a class="navbar__menu--link" href="../index.html">Home</a>
-                </li>
-                <li class="navbar__menu--item">
-                    <a class="navbar__menu--link" href="./about-us.html">Nosotros</a>
-                </li>
-                <li class="navbar__menu--item">
-                    <a class="navbar__menu--link" href="./product-service.html">Productos y Servicios</a>
-                </li>
-                <li class="navbar__menu--item" id="gallery">
-                    <a class="navbar__menu--link" href="./gallery.html">Galeria</a>
-                </li>
-                <li class="navbar__menu--item">
-                    <a class="navbar__menu--link" href="./contact.html">Contacto</a>
-                </li>
-            </ul>
+
+            <label for="menu" class="nav__label">
+                <img src="../public/menu.svg" alt="logo hamburguesa" class="nav__img">
+            </label>
+            <input type="checkbox" id="menu" class="nav__imput">
+            <div class="nav__menu navbar__menu flex-row">
+                <a class="navbar__menu--link" href="../index.html">Home</a>
+                <a class="navbar__menu--link" href="../public/about-us.html">Nosotros</a>
+                <a class="navbar__menu--link" href="../public/product-service.html">Productos y Servicios</a>
+                <a class="navbar__menu--link" id="gallery" href="../public/gallery.html">Galeria</a>
+                <a class="navbar__menu--link" href="../public/contact.html">Contacto</a>
+            </div>
         </nav>
     </header>
 

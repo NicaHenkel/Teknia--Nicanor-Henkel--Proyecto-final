@@ -12,18 +12,13 @@ header{
     
 } 
 
-.nav__input:checked + .nav__menu{
-    background-color: green;
+.nav__imput:checked + .nav__menu{
+    background-color: $quarter-b;
 }
 .nav__label, .nav__imput{
     display: none;
 }
-.nav__menu{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
+
 .navbar__menu {  
     align-items: center;
     justify-content: space-between;
@@ -84,19 +79,22 @@ header{
         display: block;
         cursor: pointer;
     }
-    .nav__menu{       
-            position:fixed;
-            top: 80px;
-            bottom: 0;
-            background-color: green;
-            width: 100%;
-            left: 0;
-            display: flex;
-            justify-content: space-evenly;
-            flex-direction: column;
-            align-items: center;
-            clip-path:circle(0 at center);
-
+    .nav__menu{
+        position: fixed;
+        top: 55px;
+        bottom: 0;
+        
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: circle(0 at center);
+        
+    }
+    .nav__imput:checked + .nav__menu{
+        clip-path: circle(100% at center);
     }
     
 }
