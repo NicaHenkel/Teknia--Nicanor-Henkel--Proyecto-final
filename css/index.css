@@ -101,7 +101,7 @@ header {
     width: 100%;
     left: 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
     clip-path: circle(0 at center); }
@@ -192,7 +192,9 @@ header {
     display: none; }
   .home__enlaces {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .tittle-tek__descrip {
+    font-size: 1.8em; } }
 
 /*ABOUT-US*/
 #nos {
